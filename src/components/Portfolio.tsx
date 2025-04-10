@@ -11,7 +11,7 @@ import {
 } from "@/components/ui/dialog";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import Image from "next/image";
-import { ScrollArea,ScrollBar } from "@/components/ui/scroll-area";
+import { ScrollArea } from "@/components/ui/scroll-area";
 
 interface Project {
   id: number;
@@ -152,6 +152,7 @@ const Portfolio = () => {
                 <Card
                   key={project.id}
                   className=" overflow-hidden  cursor-pointer"
+                  style={{ transitionDelay: `${index * 0.05}s` }}
                   onClick={() => openProjectModal(project)}
                 >
                   <div className="relative h-64 w-full">

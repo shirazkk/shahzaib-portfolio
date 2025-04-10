@@ -6,7 +6,6 @@ import Navbar from "@/components/NavBar";
 import Portfolio from "@/components/Portfolio";
 import { ScrollToTop } from "@/components/Scroll_to_top";
 import Services from "@/components/Services";
-import Image from "next/image";
 
 export default function Home() {
   return (

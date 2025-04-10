@@ -3,7 +3,7 @@
 import { useEffect } from "react"
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import { Palette, ImageIcon, Layout, PenTool, FileType, Instagram } from "lucide-react"
+import { Palette, ImageIcon, PenTool, FileType, Instagram } from "lucide-react"
 import Link from "next/link"
 
 const Services = () => {
